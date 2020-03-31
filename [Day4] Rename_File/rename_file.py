@@ -1,4 +1,4 @@
-import os ,sys
+import os
 path = os.getcwd()+'\[Day4] Rename_File'
 src = os.listdir(path)
 
