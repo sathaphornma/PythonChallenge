@@ -7,7 +7,7 @@ img = cv2.imread(path+'\logo.png',cv2.IMREAD_UNCHANGED)
 print('Original Dimensions : ',"Height :",img.shape[0]," ,Width : ",img.shape[1]," ,Number of channels :",img.shape[2]) #ขนาดเดิม
 cv2.imshow("Original image", img)
 
-scale_percent = int(input("Scale Percent : ")) #ขนาดใหม่กี่เปอ์เซ็นจาก 100%
+scale_percent = int(input("Scale Percent : ")) #ขนpาดใหม่กี่เปอ์เซ็นจาก 100%
 width = img.shape[1] * scale_percent / 100
 height = img.shape[0] * scale_percent / 100
 dim = (int(width),int(height)) # Dimensions ขนาด
